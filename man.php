@@ -1,3 +1,4 @@
+<?php
 /*
  * Copyright (C) 2015 Thuan Song Teoh
  *
@@ -16,7 +17,6 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-<?php
     session_start();
     $_SESSION["token"] = md5(uniqid(mt_rand(), true));
 ?>
